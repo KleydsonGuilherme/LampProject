@@ -1,0 +1,50 @@
+body{
+    background: black;
+    color: white;
+    transition: transform 0.2s ease;
+    -webkit-transition: background-color 1000ms ease-out;
+    -ms-transition: background-color 1000ms ease-out;
+    transition: background-color 1000ms ease-out;
+}
+
+img{
+    transform: rotate(180deg);
+}
+
+header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    }
+
+.divTurn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.turnOnOff{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(20, 145, 55);
+    border: none;
+    font-size: 30px;
+    color: white;
+    margin-top: 160px;
+    position: absolute;
+    z-index: 2;
+}
+.turnOnOff:hover{
+    transform: scale(1.1);
+}
